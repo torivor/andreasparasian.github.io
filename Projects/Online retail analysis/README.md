@@ -1,6 +1,7 @@
 Online preview of the HTML file = http://htmlpreview.github.com/?https://github.com/torivor/andreasparasian.github.io/blob/main/Projects/Online%20retail%20analysis/Online%20retail%20data%20mining.html
 
 All of the files in this folder are licensed with MIT license. Below is the statement =
+
 MIT License
 
 Copyright (c) 2021 Andreas Parasian
