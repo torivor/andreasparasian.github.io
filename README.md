@@ -1,6 +1,9 @@
 # andreasparasian.github.io
 Andreas Parasian's personal website
 
+# Original template for the HTML of the profile card
+Created in Tailwind CSS by Tailwind Toolbox, see the Github Repo in the following link = https://github.com/tailwindtoolbox/Profile-Card
+
 # License for all project files
 MIT License
 
