@@ -14431,7 +14431,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Early-Data-Exploration-(EDA)">Early Data Exploration (EDA)<a class="anchor-link" href="#Early-Data-Exploration-(EDA)">&#182;</a></h2>
+<h2 id="Exploratory-Data-Analysis-(EDA)">Exploratory Data Analysis (EDA)<a class="anchor-link" href="#Exploratory-Data-Analysis-(EDA)">&#182;</a></h2>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -15591,7 +15591,7 @@ Name: Cancel_status, dtype: int64</pre>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Summary-of-data-understanding">Summary of data understanding<a class="anchor-link" href="#Summary-of-data-understanding">&#182;</a></h2><p>The Early Data Exploration (EDA) task highlights several problems and details about the data. It mainly adds several tasks to be done during the data preparation step, which are:</p>
+<h2 id="Summary-of-data-understanding">Summary of data understanding<a class="anchor-link" href="#Summary-of-data-understanding">&#182;</a></h2><p>The Exploratory Data Analysis (EDA) task highlights several problems and details about the data. It mainly adds several tasks to be done during the data preparation step, which are:</p>
 <ol>
 <li>Change the InvoiceDate column datatype into its appropriate datatype</li>
 <li>Remove rows with missing values (NaN)</li>
@@ -15608,7 +15608,7 @@ Name: Cancel_status, dtype: int64</pre>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Data-selection">Data selection<a class="anchor-link" href="#Data-selection">&#182;</a></h2><p>There are a lot of metrics to measure attrition rates. However, due to resource constraints, the metric is chosen based on its applicability to the company data. The data have several columns: Invoice, StockCode, Description, Quantity, InvoiceDate, Price, Customer ID, Country. Note that not all of these columns contribute detail about the company customers' attrition rates.<br></p>
-<p>As seen from the Early Data Exploration (EDA) task, <strong>the values of the StockCode and Description column don't have any patterns</strong>. The Description column values consist of product names, product description, whether or not the product is a defect, and many other various details that don't necessarily form a pattern. The values of the StockCode column are StockCodes for the described product in the adjacent Description column, but since the values of the Description column often are not the corresponding product name but rather unnecessary details about the product or order then the values of the StockCode column don't mean anything (a specific code might refer to a product name once, but on another occasion it might refer to other unnecessary detail such as product defect status). Hence, the values of these two columns don't contribute any details about the company customer's behaviour, specifically regarding customer attrition, which is one of the goals that was defined before. Therefore, <strong>both of these columns are excluded</strong> from further data-mining work.<br></p>
+<p>As seen from the Exploratory Data Analysis (EDA) task, <strong>the values of the StockCode and Description column don't have any patterns</strong>. The Description column values consist of product names, product description, whether or not the product is a defect, and many other various details that don't necessarily form a pattern. The values of the StockCode column are StockCodes for the described product in the adjacent Description column, but since the values of the Description column often are not the corresponding product name but rather unnecessary details about the product or order then the values of the StockCode column don't mean anything (a specific code might refer to a product name once, but on another occasion it might refer to other unnecessary detail such as product defect status). Hence, the values of these two columns don't contribute any details about the company customer's behaviour, specifically regarding customer attrition, which is one of the goals that was defined before. Therefore, <strong>both of these columns are excluded</strong> from further data-mining work.<br></p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_remove-input">
@@ -16866,7 +16866,7 @@ dtype: object</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&lt;matplotlib.legend.Legend at 0x20f49c6cbe0&gt;</pre>
+<pre>&lt;matplotlib.legend.Legend at 0x1afa2260760&gt;</pre>
 </div>
 
 </div>
@@ -18495,11 +18495,30 @@ Summary of Revenue Cluster
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="References">References<a class="anchor-link" href="#References">&#182;</a></h1><h2 id="Dataset">Dataset<a class="anchor-link" href="#Dataset">&#182;</a></h2><p>Chen, D. 2019, Online Retail II Data Set, viewed 19 November 2020, <a href="https://archive.ics.uci.edu/ml/datasets/Online+Retail+II">https://archive.ics.uci.edu/ml/datasets/Online+Retail+II</a>.</p>
+<h2 id="Assumptions,-theories,-and-methodologies">Assumptions, theories, and methodologies<a class="anchor-link" href="#Assumptions,-theories,-and-methodologies">&#182;</a></h2><ul>
+<li>Brown, M.S. 2014, <em>Data Mining For Dummies</em>, John Wiley &amp; Sons, Inc., p. 75, <a href="https://www.wiley.com/en-us/Data+Mining+For+Dummies-p-9781118893166">https://www.wiley.com/en-us/Data+Mining+For+Dummies-p-9781118893166</a>.</li>
+<li>Bayliss, D., Olsen, W. &amp; Walthery, P. 2017, 'Well-Being During Recession in the UK', <em>Applied Research in Quality of Life</em>, vol. 12, no. 2, pp. 369–387, DOI: 10.1007/s11482-016-9465-8.</li>
+<li>Ginn, J., Stone, M. &amp; Ekinci, Y. 2010, 'Customer retention management in the recession', <em>Journal of Direct, Data and Digital Marketing Practice</em>, vol. 12, pp. 115–127, <a href="https://link.springer.com/article/10.1057/dddmp.2010.27">https://link.springer.com/article/10.1057/dddmp.2010.27</a>.</li>
+<li>Hayes, A. 2020, <em>Point of Sale (POS)</em>, Investopedia, viewed December 2020, <a href="https://www.investopedia.com/terms/p/point-of-sale.asp">https://www.investopedia.com/terms/p/point-of-sale.asp</a>.</li>
+<li>Kitto, N. 2016, <em>Average Wage UK: What Salary Should you be Earning at Your Age?</em>, Recruitment Buzz, viewed December 2020, <a href="https://recruitmentbuzz.co.uk/average-wage-uk-salary-earning-age/">https://recruitmentbuzz.co.uk/average-wage-uk-salary-earning-age/</a>.</li>
+<li>Reddigari, M. 2018, <em>What’s the difference between wholesale vs. retail?</em>, Microsoft 365, viewed December 2020, <a href="https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/wholesaling-retailing">https://www.microsoft.com/en-us/microsoft-365/business-insights-ideas/resources/wholesaling-retailing</a>.</li>
+<li>Liu, W., Duan, S., Yang, X. &amp; Wang, X. 2011, 'Determination of customer value measurement model RFM index weights', <em>African Journal of Business Management</em>, Vol. 5, no. 14, pp. 5567-5572, DOI: 10.5897/AJBM11.290.</li>
+<li>T. Kansal, S. Bahuguna, V. Singh and T. Choudhury, "Customer Segmentation using K-means Clustering," 2018 International Conference on Computational Techniques, Electronics and Mechanical Systems (CTEMS), Belgaum, India, 2018, pp. 135-139, doi: 10.1109/CTEMS.2018.8769171.</li>
+<li>Kenton, W. 2020, <em>Nonparametric Method</em>, Investopedia, viewed January 2021, <a href="https://www.investopedia.com/terms/n/nonparametric-method.asp">https://www.investopedia.com/terms/n/nonparametric-method.asp</a>.</li>
+<li>Chamberlain, K. 2018, <em>How can a B2B loyalty scheme improve customer retention?</em>, Corporate Rewards Ltd., viewed January 2021, <a href="https://www.crworldwide.com/news-ideas/customer-loyalty/how-can-a-b2b-loyalty-scheme-improve-customer-retention/">https://www.crworldwide.com/news-ideas/customer-loyalty/how-can-a-b2b-loyalty-scheme-improve-customer-retention/</a>.</li>
+</ul>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Afterword">Afterword<a class="anchor-link" href="#Afterword">&#182;</a></h1><p>Thank you for reading through this study case. I hope this study case can provide the readers with a brief example of how insights can be extracted from data and how to use said insights in making decisions. Should there be any error from the assumptions or methods that I used, it would be very helpful and I would be very grateful to be notified about it. You can contact me through these channels:</p>
 <ul>
 <li>Gmail: <strong><a href="mailto:andreasparasian@gmail.com">andreasparasian@gmail.com</a></strong> (general matters) or <strong><a href="mailto:andreas.parasian@ui.ac.id">andreas.parasian@ui.ac.id</a></strong> (academic matters)</li>
 <li>LinkedIn: <a href="https://www.linkedin.com/in/andreasparasian/">https://www.linkedin.com/in/andreasparasian/</a></li>
-<li>Github: <a href="https://torivor.github.io/andreasparasian.github.io/">https://torivor.github.io/andreasparasian.github.io/</a></li>
+<li>Github: <a href="https://github.com/torivor">https://github.com/torivor</a></li>
+<li>The study case's Github repository: <a href="https://github.com/torivor/andreasparasian.github.io/tree/main/Projects/Online%20retail%20analysis">https://github.com/torivor/andreasparasian.github.io/tree/main/Projects/Online%20retail%20analysis</a></li>
 </ul>
 
 </div>
