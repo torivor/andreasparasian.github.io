@@ -429,7 +429,7 @@ pn_visualizer.save(gviz_PERFORMANCE, "inductive_PERFORMANCE.png")
 
 
     
-![png](/assets/portfolio_assets/images/output_18_1.png)
+<img src="{{site.baseurl}}/assets/portfolio_assets/Process Mining Demo/images/output_18_1.png">
     
 
 
@@ -454,7 +454,7 @@ pn_visualizer.save(gviz_FREQUENCY, "inductive_FREQUENCY.png")
 
 
     
-![png](/assets/portfolio_assets/images/output_20_1.png)
+<img src="{{site.baseurl}}/assets/portfolio_assets/Process Mining Demo/images/output_20_1.png">
     
 
 
@@ -1057,7 +1057,7 @@ ax = sns.swarmplot(data=filtered_resource_profile_df,
 
 
     
-![png](/assets/portfolio_assets/images/output_33_0.png)
+<img src="{{site.baseurl}}/assets/portfolio_assets/Process Mining Demo/images/output_33_0.png">
     
 
 
@@ -1275,7 +1275,7 @@ for trans in trans_root_cause:
 
 
     
-![png](/assets/portfolio_assets/images/output_49_0.png)
+<img src="{{site.baseurl}}/assets/portfolio_assets/Process Mining Demo/images/output_49_0.png">
     
 
 
@@ -1317,7 +1317,7 @@ dectree_visualizer.view(gviz)
 
 
     
-![png](/assets/portfolio_assets/images/output_52_0.png)
+<img src="{{site.baseurl}}/assets/portfolio_assets/Process Mining Demo/images/output_52_0.png">
     
 
 
