@@ -1,6 +1,9 @@
 ---
 title: "Process Mining Demo"
 excerpt: "A showcase of various process mining methodologies."
+toc: true
+toc_label: "Table of Contents"
+toc_sticky: true
 ---
 
 # Mining Business Processes: Use Case on Purchasing Business Processes
