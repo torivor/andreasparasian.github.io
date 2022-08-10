@@ -1,6 +1,6 @@
 ---
 title: "Post archive"
 permalink: /post-archive/
-layout: posts
+layout: tags
 author_profile: true
 ---
