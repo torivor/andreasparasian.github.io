@@ -6,4 +6,4 @@ tags:
 ---
 
 ## Welcome!
-This Andreas's first blog post, please look forward for more posts in the future!
+This is Andreas's first blog post, please look forward for more posts in the future!
